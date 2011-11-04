@@ -1,0 +1,11 @@
+iframe {
+  width: 632px;
+  height: 456px;
+  border: 0;
+}
+
+div#loading {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}

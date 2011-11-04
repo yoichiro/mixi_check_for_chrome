@@ -1,0 +1,10 @@
+{
+    "description": {
+        "message": "この拡張機能は、あなたの友人に気になったウェブページをいつでもシェアできるようにするために、Chromeにmixiチェックボタンを提供します。",
+        "description": "この拡張機能の説明文。"
+    },
+    "button_title": {
+        "message": "mixiチェックボタン",
+        "description": "ボタンのタイトル。"
+    }
+}

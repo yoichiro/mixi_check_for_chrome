@@ -1,0 +1,10 @@
+{
+    "description": {
+        "message": "This extension provides you the mixi Check button for sharing a web page to your friends.",
+        "description": "The description of this extension."
+    },
+    "button_title": {
+        "message": "mixi Check button",
+        "description": "The button title."
+    }
+}

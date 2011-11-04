@@ -1,0 +1,19 @@
+{
+    "name": "mixi Check button extension",
+    "description": "__MSG_description__",
+    "version": "1.0.2",
+    "browser_action": {
+        "default_icon": "./m_balloon_icon.png",
+        "default_title": "__MSG_button_title__",
+        "popup": "./popup.html"    
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "48": "./icon_48.png",
+        "64": "./icon_64.png"
+    },
+    "default_locale": "en",
+    "background_page": "./background.html"
+}
