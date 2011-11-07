@@ -1,7 +1,7 @@
 {
     "name": "mixi Check button extension",
     "description": "__MSG_description__",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "browser_action": {
         "default_icon": "./m_balloon_icon.png",
         "default_title": "__MSG_button_title__",
