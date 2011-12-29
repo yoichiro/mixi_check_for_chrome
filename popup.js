@@ -7,6 +7,7 @@ Mixi.prototype = {
         this.assignEventHandler();
     },
     render: function() {
+        this.setBackgroundImage();
         chrome.tabs.getSelected(null, function(tab) {
             var url = "http://mixi.jp/share.pl?u="
                 + encodeURIComponent(tab.url)
@@ -30,6 +31,14 @@ Mixi.prototype = {
                 window.close();
             }
         }.bind(this));
+    },
+    setBackgroundImage: function() {
+        var backgroundImageUrl = localStorage["background_image_url"];
+        if (backgroundImageUrl) {
+            document.body.setAttribute(
+                "style",
+                "background-image: url(" + backgroundImageUrl + ");");
+        }
     }
 };
 

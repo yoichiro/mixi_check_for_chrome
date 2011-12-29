@@ -6,15 +6,17 @@
 <link rel="stylesheet" type="text/css" href="./popup.css" />
 </head>
 
-<body>
+<body onload="mixi.render();">
   <script type="text/javascript" src="./analytics.js"></script>
+
+  <div id="background_pane"></div>
+
   <div id="target"></div>
+
   <div id="loading">
     <img src="./arrow45-001.gif" />
   </div>
-  <script type="text/javascript">
-    mixi.render();
-  </script>
+
 </body>
 
 </html>

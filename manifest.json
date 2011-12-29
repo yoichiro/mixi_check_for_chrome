@@ -1,7 +1,7 @@
 {
     "name": "mixi Check button extension",
     "description": "__MSG_description__",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "browser_action": {
         "default_icon": "./m_balloon_icon.png",
         "default_title": "__MSG_button_title__",
@@ -15,5 +15,11 @@
         "64": "./icon_64.png"
     },
     "default_locale": "en",
-    "background_page": "./background.html"
+    "background_page": "./background.html",
+    "options_page": "options.html",
+    "content_scripts": [{
+        "matches": ["http://mixi.jp/share.pl*"],
+        "js": ["inject.js"],
+        "all_frames": true
+    }]
 }
