@@ -16,7 +16,7 @@
         "48": "./icon_48.png",
         "64": "./icon_64.png"
     },
-    "default_locale": "ja",
+    "default_locale": "en",
     "background": {
         "page": "./background.html"
     },
