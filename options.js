@@ -4,6 +4,10 @@ var Option = function() {
 
 Option.prototype = {
     initialize: function() {
+        window.addEventListener("load", function(evt) {
+            console.log("aas");
+            this.start();
+        }.bind(this));
     },
     start: function() {
         this.assignMessages();

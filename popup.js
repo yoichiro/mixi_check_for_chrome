@@ -31,6 +31,9 @@ Mixi.prototype = {
                 window.close();
             }
         }.bind(this));
+        window.addEventListener("load", function(evt) {
+            this.render();
+        }.bind(this));
     },
     setBackgroundImage: function() {
         var backgroundImageUrl = localStorage["background_image_url"];
