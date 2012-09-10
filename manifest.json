@@ -5,7 +5,7 @@
     "browser_action": {
         "default_icon": "./m_balloon_icon.png",
         "default_title": "__MSG_button_title__",
-        "popup": "./popup.html"    
+        "popup": "./popup.html"
     },
     "permissions": [
         "tabs"
